@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4701667063487111933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4701667063487111935}
+  - component: {fileID: 4701667063487111934}
+  m_Layer: 0
+  m_Name: GLAxisIndicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701667063487111935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4701667063487111933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4701667063487111934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4701667063487111933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026fd7bbb117750419d57c97a45f54e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sources: {fileID: 11400000, guid: eec4a8c602f962742a9c9bab6dd92d60, type: 2}
+  axisRadius: 1.2
+  ringRadiusMul: 0.66
+  endPointSize: 0.25
+  quadSize: 0.25
+  wireWidth: 0
+  ringWidth: 0.025
+  ringSegments: 48
+  eulerMagnet: 0
+  eulerMagnetDegree: 15
+  m_state: 0
+  orthoDegreeTol: 0.001
+  orthoLineLen: 1000
+  orthoLineWidth: 0
+  hideAxisMaxDot: 0.9781476
+  glLevel: 1
+  perspScaleMul: 0.1
+  orthoScaleMul: 1
+  gridMagnet: 0
+  gridLevel: 1
+  disableInput: 0
+  _inWorldCoord: 0
+  targets: []
+  _targetCamera: {fileID: 0}
+  cbEvent: 17

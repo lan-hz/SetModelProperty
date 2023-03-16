@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c0312ab6d9f974ca7696b8093bb72c, type: 3}
+  m_Name: OutlineProfile
+  m_EditorClassIdentifier: 
+  drawDepthMat: {fileID: 2100000, guid: d207444e529732149bd34ba5e38ae6ad, type: 2}
+  drawColorMat: {fileID: 2100000, guid: c55c9030e759b1946ae21ee91ec4667c, type: 2}
+  effect: {fileID: 2100000, guid: 99a627a9408aae64d8e9575aa2982526, type: 2}
+  effectKernel3x3_X_0: {x: -1, y: -2, z: -1}
+  effectKernel3x3_X_1: {x: 0, y: 0, z: 0}
+  effectKernel3x3_X_2: {x: 1, y: 2, z: 1}
+  effectKernel3x3_Y_0: {x: -1, y: 0, z: 1}
+  effectKernel3x3_Y_1: {x: -2, y: 0, z: 2}
+  effectKernel3x3_Y_2: {x: -1, y: 0, z: 1}
+  outlineCS: {fileID: 7200000, guid: 4bd10b6a1dd9da2419c7cf8a7de3171f, type: 3}
+  edgeMul: 2800
+  edgeLimit: 0.75
+  texelSize: {x: 1.25, y: 1.25}
